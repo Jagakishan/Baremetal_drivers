@@ -1,7 +1,9 @@
 # Bare-Metal Driver Development (STM32F446xx)
 
 This repository contains a collection of bare-metal peripheral drivers and low-level experiments developed 
-for the STM32F446xx series MCU using the ARM GNU Toolchain, CMSIS device headers, custom linker scripts, and OpenOCD-based flashing/debugging.
+for the STM32F446xx series MCU using the ARM GNU Toolchain, CMSIS device headers, custom linker scripts and startup files, and OpenOCD-based flashing/debugging.
+
+**No HAL or high-level abstraction libraries were used for the driver implementations.**
 
 The goal of this project was to understand embedded systems from the ground up by working directly with:
 
@@ -16,8 +18,6 @@ The goal of this project was to understand embedded systems from the ground up b
 -Peripheral register-level programming
 
 -Compilation, linking, ELF generation, and flashing workflow
-
-**No HAL or high-level abstraction libraries were used for the driver implementations.**
 
 ---
 
